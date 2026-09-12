@@ -15,9 +15,9 @@ CORS(app)
 # ======================
 # CONSTANTS & LOCAL MEMORY (RAM)
 # ======================
-TOKEN_EXPIRY = 20       # seconds for token expiry
-COOLDOWN = 120         # anti-spam cooldown
-KEY_LIMIT = 120        # seconds before same IP can generate another key
+TOKEN_EXPIRY = 5       # seconds for token expiry
+COOLDOWN = 5         # anti-spam cooldown
+KEY_LIMIT = 5        # seconds before same IP can generate another key
 
 db_cache = {
     "tokens": {},
